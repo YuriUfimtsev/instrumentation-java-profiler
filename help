@@ -1,0 +1,3 @@
+JFR run: ./gradlew build ; java -XX:StartFlightRecording=duration=60s,filename=profile.jfr -cp build/classes/java/main ru.itmo.ipkn.yuriufimtsev.Main
+
+get JFR output: jfr print --events jdk.ExecutionSample profile.jfr > jfr_output.txt

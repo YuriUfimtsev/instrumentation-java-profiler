@@ -1,0 +1,11 @@
+------ Profiler Report (top 10 by total time) ----------
+Method                                   |    Calls |     Total (ms) |       Avg (ms) | % total
+-----------------------------------------+----------+----------------+----------------+--------
+main                                     |        1 |       2361,208 |    2361,208200 |  100,0%
+heavyLoop                                |        1 |       1119,131 |    1119,130500 |   47,4%
+repeatedCompute                          |        1 |        671,719 |     671,719200 |   28,4%
+repeatedCompute.fibonacci                |        5 |        671,523 |     134,304620 |   28,4%
+frequentTiny                             |        1 |        376,156 |     376,156200 |   15,9%
+bubbleSort                               |        1 |        193,953 |     193,952800 |    8,2%
+bubbleSort.innerSort                     |        1 |        189,023 |     189,023400 |    8,0%
+tinyFunction                             |  5000000 |        171,680 |       0,000034 |    7,3%
